@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C57CA22B-7A9A-43C2-903F-54FA115294CF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Roundlist</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>12E6F9AB-C46A-4921-B80C-B5A44967EB68</key>
+		<string>https://github.com/kuanting17/roundList.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Roundlist.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>12E6F9AB-C46A-4921-B80C-B5A44967EB68</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kuanting17/roundList.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>12E6F9AB-C46A-4921-B80C-B5A44967EB68</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>12E6F9AB-C46A-4921-B80C-B5A44967EB68</string>
+			<key>IDESourceControlWCCName</key>
+			<string>roundList</string>
+		</dict>
+	</array>
+</dict>
+</plist>

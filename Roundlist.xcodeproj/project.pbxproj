@@ -28,34 +28,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4A83D0B7180673BE00C9EFFC /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
-		4A83D0B8180673BE00C9EFFC /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		4A83D0B7180673BE00C9EFFC /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Item.h; path = Roundlist/CoreData/Item.h; sourceTree = "<group>"; };
+		4A83D0B8180673BE00C9EFFC /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Item.m; path = Roundlist/CoreData/Item.m; sourceTree = "<group>"; };
 		4A83D0BA1807CE2800C9EFFC /* KCItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCItemStore.h; sourceTree = "<group>"; };
 		4A83D0BB1807CE2800C9EFFC /* KCItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCItemStore.m; sourceTree = "<group>"; };
 		4AA84B3317F9208000B7D5BC /* Roundlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roundlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA84B3617F9208000B7D5BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4AA84B3817F9208000B7D5BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4AA84B3A17F9208000B7D5BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4AA84B3E17F9208000B7D5BC /* Roundlist-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Roundlist-Info.plist"; sourceTree = "<group>"; };
+		4AA84B3E17F9208000B7D5BC /* Roundlist-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Roundlist-Info.plist"; path = "SupportingFiles/Roundlist-Info.plist"; sourceTree = "<group>"; };
 		4AA84B4017F9208000B7D5BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4AA84B4217F9208000B7D5BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4AA84B4417F9208000B7D5BC /* Roundlist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Roundlist-Prefix.pch"; sourceTree = "<group>"; };
-		4AA84B4517F9208000B7D5BC /* RoundlistAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundlistAppDelegate.h; sourceTree = "<group>"; };
-		4AA84B4617F9208000B7D5BC /* RoundlistAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundlistAppDelegate.m; sourceTree = "<group>"; };
-		4AA84B4817F9208000B7D5BC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		4AA84B4A17F9208000B7D5BC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		4AA84B4C17F9208000B7D5BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4AA84B4217F9208000B7D5BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SupportingFiles/main.m; sourceTree = "<group>"; };
+		4AA84B4417F9208000B7D5BC /* Roundlist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Roundlist-Prefix.pch"; path = "SupportingFiles/Roundlist-Prefix.pch"; sourceTree = "<group>"; };
+		4AA84B4517F9208000B7D5BC /* RoundlistAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RoundlistAppDelegate.h; path = SupportingFiles/RoundlistAppDelegate.h; sourceTree = "<group>"; };
+		4AA84B4617F9208000B7D5BC /* RoundlistAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RoundlistAppDelegate.m; path = SupportingFiles/RoundlistAppDelegate.m; sourceTree = "<group>"; };
+		4AA84B4817F9208000B7D5BC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = SupportingFiles/Default.png; sourceTree = "<group>"; };
+		4AA84B4A17F9208000B7D5BC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "SupportingFiles/Default@2x.png"; sourceTree = "<group>"; };
+		4AA84B4C17F9208000B7D5BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "SupportingFiles/Default-568h@2x.png"; sourceTree = "<group>"; };
 		4AA84B4F17F9208000B7D5BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		4AA84B5117F9208000B7D5BC /* RoundlistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundlistViewController.h; sourceTree = "<group>"; };
 		4AA84B5217F9208000B7D5BC /* RoundlistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundlistViewController.m; sourceTree = "<group>"; };
 		4AA84B5917F9235300B7D5BC /* DisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayViewController.h; sourceTree = "<group>"; };
 		4AA84B5A17F9235300B7D5BC /* DisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = "<group>"; };
 		4AA84B5C17F924C400B7D5BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		4AA84B6317F926D800B7D5BC /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
-		4AA84B6417F926D800B7D5BC /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		4AA84B6317F926D800B7D5BC /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataTableViewController.h; path = Roundlist/CoreData/CoreDataTableViewController.h; sourceTree = "<group>"; };
+		4AA84B6417F926D800B7D5BC /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataTableViewController.m; path = Roundlist/CoreData/CoreDataTableViewController.m; sourceTree = "<group>"; };
 		4AA84B6717F927CF00B7D5BC /* List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = List.xcdatamodel; sourceTree = "<group>"; };
-		4AA84B6917F9297800B7D5BC /* ItemType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemType.h; sourceTree = "<group>"; };
-		4AA84B6A17F9297800B7D5BC /* ItemType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemType.m; sourceTree = "<group>"; };
+		4AA84B6917F9297800B7D5BC /* ItemType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemType.h; path = Roundlist/CoreData/ItemType.h; sourceTree = "<group>"; };
+		4AA84B6A17F9297800B7D5BC /* ItemType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemType.m; path = Roundlist/CoreData/ItemType.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
