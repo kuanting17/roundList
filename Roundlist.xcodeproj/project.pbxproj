@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A83D0B9180673BE00C9EFFC /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A83D0B8180673BE00C9EFFC /* Item.m */; };
+		4A83D0BC1807CE2800C9EFFC /* KCItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A83D0BB1807CE2800C9EFFC /* KCItemStore.m */; };
+		4AA84B3717F9208000B7D5BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA84B3617F9208000B7D5BC /* UIKit.framework */; };
+		4AA84B3917F9208000B7D5BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA84B3817F9208000B7D5BC /* Foundation.framework */; };
+		4AA84B3B17F9208000B7D5BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA84B3A17F9208000B7D5BC /* CoreGraphics.framework */; };
+		4AA84B4117F9208000B7D5BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AA84B3F17F9208000B7D5BC /* InfoPlist.strings */; };
+		4AA84B4317F9208000B7D5BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA84B4217F9208000B7D5BC /* main.m */; };
+		4AA84B4717F9208000B7D5BC /* RoundlistAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA84B4617F9208000B7D5BC /* RoundlistAppDelegate.m */; };
+		4AA84B4917F9208000B7D5BC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA84B4817F9208000B7D5BC /* Default.png */; };
+		4AA84B4B17F9208000B7D5BC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA84B4A17F9208000B7D5BC /* Default@2x.png */; };
+		4AA84B4D17F9208000B7D5BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA84B4C17F9208000B7D5BC /* Default-568h@2x.png */; };
+		4AA84B5017F9208000B7D5BC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA84B4E17F9208000B7D5BC /* MainStoryboard.storyboard */; };
+		4AA84B5317F9208000B7D5BC /* RoundlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA84B5217F9208000B7D5BC /* RoundlistViewController.m */; };
+		4AA84B5B17F9235300B7D5BC /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA84B5A17F9235300B7D5BC /* DisplayViewController.m */; };
+		4AA84B5D17F924C400B7D5BC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA84B5C17F924C400B7D5BC /* CoreData.framework */; };
+		4AA84B6517F926D800B7D5BC /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA84B6417F926D800B7D5BC /* CoreDataTableViewController.m */; };
+		4AA84B6817F927CF00B7D5BC /* List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4AA84B6617F927CF00B7D5BC /* List.xcdatamodeld */; };
+		4AA84B6B17F9297800B7D5BC /* ItemType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA84B6A17F9297800B7D5BC /* ItemType.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A83D0B7180673BE00C9EFFC /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		4A83D0B8180673BE00C9EFFC /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		4A83D0BA1807CE2800C9EFFC /* KCItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCItemStore.h; sourceTree = "<group>"; };
+		4A83D0BB1807CE2800C9EFFC /* KCItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCItemStore.m; sourceTree = "<group>"; };
+		4AA84B3317F9208000B7D5BC /* Roundlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roundlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA84B3617F9208000B7D5BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4AA84B3817F9208000B7D5BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4AA84B3A17F9208000B7D5BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4AA84B3E17F9208000B7D5BC /* Roundlist-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Roundlist-Info.plist"; sourceTree = "<group>"; };
+		4AA84B4017F9208000B7D5BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4AA84B4217F9208000B7D5BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AA84B4417F9208000B7D5BC /* Roundlist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Roundlist-Prefix.pch"; sourceTree = "<group>"; };
+		4AA84B4517F9208000B7D5BC /* RoundlistAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundlistAppDelegate.h; sourceTree = "<group>"; };
+		4AA84B4617F9208000B7D5BC /* RoundlistAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundlistAppDelegate.m; sourceTree = "<group>"; };
+		4AA84B4817F9208000B7D5BC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4AA84B4A17F9208000B7D5BC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4AA84B4C17F9208000B7D5BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4AA84B4F17F9208000B7D5BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4AA84B5117F9208000B7D5BC /* RoundlistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundlistViewController.h; sourceTree = "<group>"; };
+		4AA84B5217F9208000B7D5BC /* RoundlistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundlistViewController.m; sourceTree = "<group>"; };
+		4AA84B5917F9235300B7D5BC /* DisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayViewController.h; sourceTree = "<group>"; };
+		4AA84B5A17F9235300B7D5BC /* DisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = "<group>"; };
+		4AA84B5C17F924C400B7D5BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4AA84B6317F926D800B7D5BC /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		4AA84B6417F926D800B7D5BC /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		4AA84B6717F927CF00B7D5BC /* List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = List.xcdatamodel; sourceTree = "<group>"; };
+		4AA84B6917F9297800B7D5BC /* ItemType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemType.h; sourceTree = "<group>"; };
+		4AA84B6A17F9297800B7D5BC /* ItemType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemType.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AA84B3017F9208000B7D5BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA84B5D17F924C400B7D5BC /* CoreData.framework in Frameworks */,
+				4AA84B3717F9208000B7D5BC /* UIKit.framework in Frameworks */,
+				4AA84B3917F9208000B7D5BC /* Foundation.framework in Frameworks */,
+				4AA84B3B17F9208000B7D5BC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AA84B2A17F9208000B7D5BC = {
+			isa = PBXGroup;
+			children = (
+				4AA84B3C17F9208000B7D5BC /* Roundlist */,
+				4AA84B3517F9208000B7D5BC /* Frameworks */,
+				4AA84B3417F9208000B7D5BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AA84B3417F9208000B7D5BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AA84B3317F9208000B7D5BC /* Roundlist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AA84B3517F9208000B7D5BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AA84B5C17F924C400B7D5BC /* CoreData.framework */,
+				4AA84B3617F9208000B7D5BC /* UIKit.framework */,
+				4AA84B3817F9208000B7D5BC /* Foundation.framework */,
+				4AA84B3A17F9208000B7D5BC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AA84B3C17F9208000B7D5BC /* Roundlist */ = {
+			isa = PBXGroup;
+			children = (
+				4AA84B4E17F9208000B7D5BC /* MainStoryboard.storyboard */,
+				4AA84B5917F9235300B7D5BC /* DisplayViewController.h */,
+				4AA84B5A17F9235300B7D5BC /* DisplayViewController.m */,
+				4A83D0BA1807CE2800C9EFFC /* KCItemStore.h */,
+				4A83D0BB1807CE2800C9EFFC /* KCItemStore.m */,
+				4AA84B5117F9208000B7D5BC /* RoundlistViewController.h */,
+				4AA84B5217F9208000B7D5BC /* RoundlistViewController.m */,
+				4AA84B5E17F9255D00B7D5BC /* CoreData */,
+				4AA84B3D17F9208000B7D5BC /* Supporting Files */,
+			);
+			path = Roundlist;
+			sourceTree = "<group>";
+		};
+		4AA84B3D17F9208000B7D5BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AA84B4517F9208000B7D5BC /* RoundlistAppDelegate.h */,
+				4AA84B4617F9208000B7D5BC /* RoundlistAppDelegate.m */,
+				4AA84B3E17F9208000B7D5BC /* Roundlist-Info.plist */,
+				4AA84B3F17F9208000B7D5BC /* InfoPlist.strings */,
+				4AA84B4217F9208000B7D5BC /* main.m */,
+				4AA84B4417F9208000B7D5BC /* Roundlist-Prefix.pch */,
+				4AA84B4817F9208000B7D5BC /* Default.png */,
+				4AA84B4A17F9208000B7D5BC /* Default@2x.png */,
+				4AA84B4C17F9208000B7D5BC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AA84B5E17F9255D00B7D5BC /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4AA84B6317F926D800B7D5BC /* CoreDataTableViewController.h */,
+				4AA84B6417F926D800B7D5BC /* CoreDataTableViewController.m */,
+				4A83D0B7180673BE00C9EFFC /* Item.h */,
+				4A83D0B8180673BE00C9EFFC /* Item.m */,
+				4AA84B6617F927CF00B7D5BC /* List.xcdatamodeld */,
+				4AA84B6917F9297800B7D5BC /* ItemType.h */,
+				4AA84B6A17F9297800B7D5BC /* ItemType.m */,
+			);
+			name = CoreData;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AA84B3217F9208000B7D5BC /* Roundlist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA84B5617F9208000B7D5BC /* Build configuration list for PBXNativeTarget "Roundlist" */;
+			buildPhases = (
+				4AA84B2F17F9208000B7D5BC /* Sources */,
+				4AA84B3017F9208000B7D5BC /* Frameworks */,
+				4AA84B3117F9208000B7D5BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roundlist;
+			productName = Roundlist;
+			productReference = 4AA84B3317F9208000B7D5BC /* Roundlist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AA84B2B17F9208000B7D5BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Roundlist;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = KC;
+			};
+			buildConfigurationList = 4AA84B2E17F9208000B7D5BC /* Build configuration list for PBXProject "Roundlist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4AA84B2A17F9208000B7D5BC;
+			productRefGroup = 4AA84B3417F9208000B7D5BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AA84B3217F9208000B7D5BC /* Roundlist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AA84B3117F9208000B7D5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA84B4117F9208000B7D5BC /* InfoPlist.strings in Resources */,
+				4AA84B4917F9208000B7D5BC /* Default.png in Resources */,
+				4AA84B4B17F9208000B7D5BC /* Default@2x.png in Resources */,
+				4AA84B4D17F9208000B7D5BC /* Default-568h@2x.png in Resources */,
+				4AA84B5017F9208000B7D5BC /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AA84B2F17F9208000B7D5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A83D0B9180673BE00C9EFFC /* Item.m in Sources */,
+				4AA84B4317F9208000B7D5BC /* main.m in Sources */,
+				4AA84B4717F9208000B7D5BC /* RoundlistAppDelegate.m in Sources */,
+				4AA84B5317F9208000B7D5BC /* RoundlistViewController.m in Sources */,
+				4AA84B5B17F9235300B7D5BC /* DisplayViewController.m in Sources */,
+				4AA84B6517F926D800B7D5BC /* CoreDataTableViewController.m in Sources */,
+				4AA84B6817F927CF00B7D5BC /* List.xcdatamodeld in Sources */,
+				4AA84B6B17F9297800B7D5BC /* ItemType.m in Sources */,
+				4A83D0BC1807CE2800C9EFFC /* KCItemStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4AA84B3F17F9208000B7D5BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AA84B4017F9208000B7D5BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4AA84B4E17F9208000B7D5BC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AA84B4F17F9208000B7D5BC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AA84B5417F9208000B7D5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4AA84B5517F9208000B7D5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AA84B5717F9208000B7D5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roundlist/Roundlist-Prefix.pch";
+				INFOPLIST_FILE = "Roundlist/Roundlist-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4AA84B5817F9208000B7D5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roundlist/Roundlist-Prefix.pch";
+				INFOPLIST_FILE = "Roundlist/Roundlist-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AA84B2E17F9208000B7D5BC /* Build configuration list for PBXProject "Roundlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA84B5417F9208000B7D5BC /* Debug */,
+				4AA84B5517F9208000B7D5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA84B5617F9208000B7D5BC /* Build configuration list for PBXNativeTarget "Roundlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA84B5717F9208000B7D5BC /* Debug */,
+				4AA84B5817F9208000B7D5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4AA84B6617F927CF00B7D5BC /* List.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4AA84B6717F927CF00B7D5BC /* List.xcdatamodel */,
+			);
+			currentVersion = 4AA84B6717F927CF00B7D5BC /* List.xcdatamodel */;
+			path = List.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4AA84B2B17F9208000B7D5BC /* Project object */;
+}
